@@ -1,0 +1,67 @@
+/*
+ * To reduce the whitespace at the end of the post
+ */
+.entry-content {
+    margin: 3em 0 0 0;
+}
+
+/*
+ * To Change the width of the page
+ */
+@media all and (min-width: 37.5em) {
+  .entry-container {
+    padding: 0 10%;
+  }
+}
+
+@media (min-width: 43.75em) {
+  .entry-container {
+    padding: 0 13%;
+  }
+}
+
+@media (min-width: 56.25em) {
+  .entry-container {
+    padding: 0 16%;
+  }
+}
+
+@media (min-width: 68.75em) {
+  .entry-container {
+    padding: 0 18%;
+    position: relative;
+  }
+}
+
+@media (min-width: 75em) {
+  .entry-container {
+    padding: 0 20%;
+  }
+}
+
+.entry-tags, .entry-categories {
+  text-align: center;
+}
+
+/*
+ * To change the hover of the article list page
+ */
+.zoom:hover .featured-image {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -moz-transform: scale(1.05) rotate(0.02deg);
+}
+
+.excerpt {
+	opacity: 1;
+}
+
+
+/*
+ * Register Fonts
+ */
+@font-face {
+	font-family: 'Montserrat Regular';  
+	src: url(fonts/Montserrat-Regular.ttf);  
+	font-weight: normal;  
+}
